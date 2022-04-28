@@ -1,3 +1,5 @@
+Projeto realizado durante o curso CURSO DESENVOLVIMENTO WEB FULL STACK (https://programadorbr.com)
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
