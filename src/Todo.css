@@ -1,0 +1,60 @@
+.container{
+    margin: auto;
+    max-width: 600px;
+}
+
+ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.item{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    padding: 15px;
+    margin-top: 15px;
+    font-size: 30px;
+    
+}
+.card{
+    box-shadow: 0 2px 7px 1px rgba(0, 0, 0, 0.2);
+}
+.done{
+    text-decoration: line-through;
+}
+
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.addButton{
+    width: 50px;
+    height: 50px;
+    border: none;
+    font-size: 20px;
+    background-color: aquamarine;
+    color: white;
+    border-radius: 25px;
+}
+.modal{
+    width: 100vw;
+    height: 100vh;
+    position: fixed;
+    top: 0;
+    left: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.2);
+}
+.hide{
+    display: none;
+}
+.cardModal{
+    padding: 20px;
+    background-color: white;
+}
